@@ -12,7 +12,7 @@ from mathutils import Matrix, Vector
 from mathutils.kdtree import KDTree
 
 LINKS = 20       # Tori in the base necklace. Use an even number of at least 8.
-DEPTH = 2        # 1 = base necklace, 2 = LINKS² tori, 3 = LINKS⁴ tori.
+DEPTH = 2        # 1 = base necklace, 2 = LINKS² tori, 3 = LINKS³ tori.
 GROUP_DEPTH = 1  # 0 = individual tori. Use DEPTH to select the whole necklace as one object.
 
 # Repeat around each base necklace. Entries can be hex colors, existing
@@ -177,7 +177,7 @@ def necklace_layers(link_radius):
 
 
 def tier_count(depth):
-    return 2 ** (depth - 1) if depth else 0
+    return depth
 
 
 def torus_mesh(link_radius):

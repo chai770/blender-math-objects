@@ -4,7 +4,7 @@ A couple Blender Python scripts for making fun objects in topology/geometry like
 
 | Antoine's necklace | Hopf fibration |
 | --- | --- |
-| ![Depth-2 Antoine's necklace in gold and teal](previews/antoines_necklace.png) | ![Colored circular Hopf fibers around a straight axis](previews/hopf_fibration.png) |
+| ![Depth-2 Antoine's necklace](previews/antoines_necklace.png) | ![Depth-3 Antoine's necklace](previews/antoines_necklace2.png) |
 
 | Script | What it makes | Settings to try |
 | --- | --- | --- |
